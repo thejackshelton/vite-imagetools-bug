@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import test from "../../public/test.webp";
 
 export default component$(() => {
   return (
@@ -10,6 +11,7 @@ export default component$(() => {
         <br />
         Happy coding.
       </p>
+      <img src={test} width={500} height={500} />
     </>
   );
 });
